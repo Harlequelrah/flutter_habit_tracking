@@ -4,8 +4,8 @@ import 'package:sqflite/sqflite.dart';
 import 'package:path_provider/path_provider.dart';
 
 class DatabaseHelper {
-  static final _databaseName = "habitTracker.db";
-  static final _databaseVersion = 1;
+  static const _databaseName = "habitTracker.db";
+  static const _databaseVersion = 1;
 
   DatabaseHelper._privateConstructor();
   static final DatabaseHelper instance = DatabaseHelper._privateConstructor();
